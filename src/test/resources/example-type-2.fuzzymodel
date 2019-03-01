@@ -1,0 +1,11 @@
+{
+	"type" : 2,
+	"clazzValues" : ["LOW", "HIGH"],
+	"attributes" : ["top", "kek"],
+	"rules" : ["LOW = (top_LOW & kek_LOW)", 
+		"HIGH = (top_HIGH & kek_HIGH)"],
+	"means" : {"top" : 5, "kek": 5},
+	"variances" : {"top" : 1, "kek": 1},
+	"bottomValues" : {"LOW" : 0.0, "HIGH" : 30.0},
+	"topValues" : {"LOW" : 10.0, "HIGH" : 40.0}
+}
